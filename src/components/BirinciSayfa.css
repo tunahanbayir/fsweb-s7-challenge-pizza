@@ -1,0 +1,50 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(206, 40, 41);
+    display: flex;
+  }
+  .firstPhoto {
+    position: fixed;
+    width: 80vw;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+  .heading {
+    text-align: center;
+    color: #faf7f2;
+    margin-top: 3%;
+  }
+  .happy {
+    font-family: "Satisfy", cursive;
+    font-size: 2rem;
+  }
+  .mainHeadingFirst {
+    margin-right: 10px;
+    color: #faf7f2;
+    font-family: "Barlow", sans-serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px #0e0d0d;
+  }
+  .firstButton {
+    padding: 1rem;
+    border-radius: 25px;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 1.7rem;
+    transition: 0.7s;
+    border: 1px solid #faf7f2;
+    margin-top: 1%;
+    cursor: pointer;
+  }
+  .firstButton:hover {
+    background-color: #fdc913;
+    color: #faf7f2;
+  }

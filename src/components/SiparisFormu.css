@@ -1,0 +1,281 @@
+
+h5 {
+    color: #faf7f2;
+    font-family: "Russo One", sans-serif;
+    letter-spacing: 10px;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-top: 3rem;
+  }
+  .formPart {
+    background-color: #faf7f2;
+    max-width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .formPart {
+    display: flex;
+    flex-direction: column;
+  }
+  h3 {
+    color: black;
+    margin: 1rem;
+    font-family: "Barlow", sans-serif;
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  .order_button {
+    background-color: rgb(206, 40, 41);
+    padding: 30px;
+    width: 100%;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+    transition: 0.7s;
+    color: #000000;
+    margin-top: 5rem;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .order_button:hover {
+    background-color: #fdc913;
+  }
+  .order_button:disabled {
+    cursor: not-allowed;
+    opacity: 0.3;
+  }
+  .ingredientsContent {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .ingredients {
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    padding: 15px;
+  }
+  .check {
+    width: 2rem;
+    height: 2rem;
+  }
+  .formContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    max-width: 100%;
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact input {
+    width: 46rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+  .order_note input {
+    width: 46rem;
+    padding: 0.9rem;
+    border-radius: 5px;
+  }
+  .order_note {
+    margin-top: 2rem;
+  }
+  .quantity input {
+    width: 6rem;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  .quantity {
+    padding-right: 2.2rem;
+  }
+  
+  .orderSum {
+    padding-top: 3rem;
+    background-color: #ffffff;
+    border: 1px solid rgb(89, 89, 89);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+  }
+  .summary1 {
+    display: flex;
+    padding-right: 5rem;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .summary1 p {
+    margin-left: 4rem;
+    color: #5d5d5d;
+  }
+  .lastPart {
+    display: flex;
+    margin-top: 5rem;
+    max-width: 100%;
+  }
+  p {
+    color: #850303;
+    padding-top: 1rem;
+  }
+  .dough_size {
+    width: 46rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .radio {
+    display: flex;
+    justify-content: flex-start;
+    width: 60rem;
+    flex-direction: row;
+  }
+  .pizza_size {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  .dough_size {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  input[type="radio"] {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+  
+  select option {
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 15px;
+  }
+  .pizza_type {
+    display: flex;
+    flex-direction: row;
+  }
+  .select {
+    width: 410px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000000;
+    font-size: 1.5rem;
+    padding: 5px;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+  }
+  
+  .footerPart2 {
+    background-color: #850303;
+    color: black;
+    width: 100%;
+    height: 29rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footerPart2 ul {
+    color: black;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 15%;
+  }
+  
+  
+  .successOrder {
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+  }
+  .gif {
+    width: 20%;
+  }
+  .congrats {
+    color: #faf7f2;
+    font-family: "Barlow", cursive;
+  }
+  .parag {
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #000000;
+    padding-bottom: 2rem;
+  }
+  .positionAbsolute {
+    max-width: 35%;
+    margin-bottom: 2rem;
+  }
+  .money {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    word-wrap: break-word;
+  }
+  .thin {
+    color: #878787;
+    font-size: 1.5rem;
+  }
+  .pizzaHeading {
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 2.1rem;
+    letter-spacing: 2px;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    height: 50px;
+    width: 250px;
+  }
+  input[type="text"]::placeholder {
+    font-family: "Barlow", sans-serif;
+    font-size: 1.5rem;
+  }
+  input[type="email"]::placeholder {
+    font-family: "Barlow", sans-serif;
+    font-size: 1.5rem;
+  }
+  input[type="number"] {
+    font-family: "Barlow", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  input[type="text"] {
+    font-size: 1.5rem;
+  }
+  
+  input[type="email"] {
+    font-size: 1.5rem;
+  }

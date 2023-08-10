@@ -1,0 +1,166 @@
+* {
+    margin: 0 auto;
+  }
+  
+  body {
+    display: block;
+    max-width: 100%;
+  }
+  
+  .menuPart {
+    background-color: #faf7f2;
+  
+    width: 100%;
+    height: 7vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .pizzaPart img {
+    width: 50%;
+    margin-bottom: 5%;
+  }
+  
+  .textPart {
+    color: #faf7f2;
+    background-color: rgba(238, 218, 218, 0.5);
+    padding: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+    font-size: 1.2rem;
+    text-align: left;
+    font-family: "Gloria Hallelujah", cursive;
+    border-radius: 15px;
+    transition: 0.7s;
+  }
+  
+  .textPart:hover {
+    color: #292929;
+  }
+  
+  .AdvertsPart img {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+  }
+  
+  .blackPart {
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #850303;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+      rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+      rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  }
+  
+  .AdvertsPart {
+    display: flex;
+    justify-content: space-around;
+    margin: 3vw;
+    gap: 15px;
+  }
+  
+  .foodAdverts img:hover {
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.06);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .blackPart h1 {
+    color: #faf7f2;
+    margin-top: 15px;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px #0e0d0d;
+  }
+  
+  .blackPart p {
+    color: #faf7f2;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+  }
+  
+  .foodText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .footerPart {
+    background-color: #faf7f2;
+    color: black;
+    margin-top: 6%;
+    width: 100%;
+    height: 29rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  .footerPart ul {
+    color: black;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 15%;
+  }
+  
+  .logo {
+    width: 40px;
+  }
+  
+  
+  .secondButton {
+    background-color: rgb(206, 40, 41);
+    padding: 1rem;
+    border-radius: 25px;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+    transition: 0.7s;
+    margin-top: 1%;
+    border: 1px solid #faf7f2;
+    cursor: pointer;
+  }
+  
+  .secondButton:hover {
+    background-color: #fdc913;
+  }
+  
+  .mainHeading {
+    color: rgb(206, 40, 41);
+    font-family: "Barlow", sans-serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px #0e0d0d;
+  }
